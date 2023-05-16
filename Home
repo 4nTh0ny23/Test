@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mon site de photographie</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Mon site de photographie</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="galerie.html">Galerie</a></li>
+                <li><a href="apropos.html">À propos</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Bienvenue sur mon site de photographie</h2>
+            <p>Découvrez mes plus belles photos capturées à travers le monde.</p>
+        </section>
+
+        <section>
+            <h2>Galerie</h2>
+            <div class="gallery">
+                <img src="image1.jpg" alt="Image 1">
+                <img src="image2.jpg" alt="Image 2">
+                <img src="image3.jpg" alt="Image 3">
+                <!-- Ajoutez plus d'images ici -->
+            </div>
+        </section>
+
+        <section>
+            <h2>À propos</h2>
+            <p>Je suis un photographe passionné par la nature et les paysages. J'aime capturer les moments uniques et les partager à travers mes photographies.</p>
+        </section>
+
+        <section>
+            <h2>Contact</h2>
+            <p>Vous pouvez me contacter à l'adresse email@example.com ou en utilisant le formulaire ci-dessous :</p>
+            <form action="envoyer_message.php" method="POST">
+                <label for="nom">Nom :</label>
+                <input type="text" id="nom" name="nom" required>
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message :</label>
+                <textarea id="message" name="message" required></textarea>
+                <input type="submit" value="Envoyer">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Mon site de photographie. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
